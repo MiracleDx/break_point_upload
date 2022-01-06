@@ -1,0 +1,10 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 512MB
+      max-request-size: 512MB
+
+upload:
+  dir: ./data
+  # 10M
+  chunkSize: 10485760
